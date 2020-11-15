@@ -15,7 +15,6 @@ class Coin:
     
     def update_face_up_side_randomly(self):
         """ Update the side of the coin randomly """
-        print(1234)
         self.face_showing = self._randomly_choose_face_showing()
 
     
